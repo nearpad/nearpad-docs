@@ -8,7 +8,9 @@ slug: /
 
 NEARpad is a web IDE for the Block Chain Operating System (BOS). It's powered by NEAR Social VM and Discovery gateway.
 
-![NEARpad Image](images/overview.png)
+|          Light mode          |          Dark mode          |
+| :--------------------------: | :-------------------------: |
+| ![](images/light-editor.png) | ![](images/dark-editor.png) |
 
 # Why should I use NEARpad?
 

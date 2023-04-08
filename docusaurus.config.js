@@ -42,15 +42,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           routeBasePath: "/",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/nearpad/nearpad-docs/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/nearpad/nearpad-docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -85,7 +83,7 @@ const config = {
           // },
           // { to: "/blog", label: "Blog", position: "right" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/nearpad/nearpad-docs",
             label: "GitHub",
             position: "right",
           },
@@ -99,7 +97,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/category/tutorial",
               },
             ],
           },
@@ -107,34 +105,13 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://twitter.com/NEARpad",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NEARpad.`,
       },
       prism: {
         theme: lightCodeTheme,
