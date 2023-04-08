@@ -1,0 +1,8 @@
+{
+  "label": "Introduction",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Discover how to use NEARpad, an online development environment for Blockchain Operating System (BOS), NEAR Social and decentralized micro-frontend.",
+  }
+}
